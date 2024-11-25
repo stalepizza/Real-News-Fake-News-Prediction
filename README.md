@@ -18,6 +18,8 @@ Performance Metrics: Evaluates the models using precision, recall, F1-score, and
 ## 📂 Project Workflow
 Dataset Preparation:
 Combines real and fake news datasets.
+**I sourced the dataset from Kaggle(fake-and-real-news-dataset
+kaggle.com)**
 Assigns labels (1 for Real, 0 for Fake) and shuffles the data for balanced training.
 Data Cleaning:
 Removes irrelevant elements such as URLs, HTML tags, punctuation, and digits.
