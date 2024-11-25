@@ -7,36 +7,37 @@ This project is a comprehensive system for predicting whether a news article is 
 In today's digital age, the spread of fake news is a growing concern. This system tackles the problem by analyzing the text content of news articles and determining their authenticity. The project employs multiple machine learning models to ensure robust and accurate predictions.
 
 ## ✨ Features
--Text Preprocessing: Efficiently cleans and prepares textual data by removing noise (URLs, HTML tags, punctuation, etc.).
--Machine Learning Models:
--Logistic Regression
--Decision Tree Classifier
--Random Forest Classifier
--Gradient Boosting Classifier
-Interactive Manual Testing: Test the system by inputting custom news articles and receiving real-time predictions.
--Performance Metrics: Evaluates the models using precision, recall, F1-score, and accuracy.
+- **Text Preprocessing:** Efficiently cleans and prepares textual data by removing noise (URLs, HTML tags, punctuation, etc.).
+- **Machine Learning Models:**
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Gradient Boosting Classifier
+- **Interactive Manual Testing:** Test the system by inputting custom news articles and receiving real-time predictions.
+- **Performance Metrics:** Evaluates the models using precision, recall, F1-score, and accuracy.
 ## 📂 Project Workflow
--**Dataset Preparation**:
--Combines real and fake news datasets.
+- **Dataset Preparation**:
+- Combines real and fake news datasets.
 **I sourced the dataset from Kaggle(fake-and-real-news-dataset
 kaggle.com)**
--Assigns labels (1 for Real, 0 for Fake) and shuffles the data for balanced training.
--**Data Cleaning**:
--Removes irrelevant elements such as URLs, HTML tags, punctuation, and digits.
--**Vectorization**:
--Transforms text data into numerical format using TF-IDF Vectorizer.
--**Model Training**:
--Trains multiple machine learning models for comparison.
--**Prediction and Evaluation**:
--Predicts and evaluates results with detailed classification reports.
+- Assigns labels (1 for Real, 0 for Fake) and shuffles the data for balanced training.
+- **Data Cleaning**:
+- Removes irrelevant elements such as URLs, HTML tags, punctuation, and digits.
+- **Vectorization**:
+- Transforms text data into numerical format using TF-IDF Vectorizer.
+- **Model Training**:
+- Trains multiple machine learning models for comparison.
+- **Prediction and Evaluation**:
+- Predicts and evaluates results with detailed classification reports.
 ## 🔧 Technologies Used
 Languages: Python
-Libraries:
--pandas
--numpy
--scikit-learn
--re (Regular Expressions)
--TfidfVectorizer (from sklearn)
+- **Libraries:**
+- pandas
+- numpy
+- scikit-learn
+- re (Regular Expressions)
+- TfidfVectorizer (from sklearn)
+- from sklearn.metrics import classification_report
 ## 🚀 Usage
 Prerequisites
 Ensure the following Python libraries are installed:
@@ -75,10 +76,10 @@ RFC Prediction: Its Real
 ## 🔍 Results
 The system evaluates performance based on:
 
-**Accuracy**: Overall correctness of predictions.
-**Precision**: Correctly identified positives as a proportion of total predicted positives.
-**Recall**: Proportion of actual positives identified correctly.
-**F1-Score**: Balance between precision and recall.
+- **Accuracy**: Overall correctness of predictions.
+- **Precision**: Correctly identified positives as a proportion of total predicted positives.
+- **Recall**: Proportion of actual positives identified correctly.
+- **F1-Score**: Balance between precision and recall.
 ## 👩‍💻 Author
 Prisha Prakash
 📧 **Email**: [prishprakash9903@gmail.com](mailto:prishprakash9903@gmail.com)  
